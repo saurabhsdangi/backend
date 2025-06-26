@@ -44,19 +44,19 @@ app.get('/', (req, res) => {
   res.send('Hello World!')
 })
 
-app.get('/twitter', (req,res) =>{
+app.get('/twitter', (req, res) =>{
     res.send('saurabh.com')
 })
 
-app.get('/login', (req,res) =>{
+app.get('/login', (req, res) =>{
     res.send('<h1>Login at Chai aur Code </h1>')
 })
 
-app.get('/youtube', (req,res) =>{
+app.get('/youtube', (req, res) =>{
     res.send("<h2>Chai aur Code</h2>")
 })
 
-app.get('/github', (req,res) =>{
+app.get('/github', (req, res) =>{
     res.json(githubData)
 })
 
